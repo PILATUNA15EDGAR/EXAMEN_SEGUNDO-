@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/ff_" />
+
+    <Button
+        android:id="@+id/btn_link"
+        android:layout_width="158dp"
+        android:layout_height="126dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="82dp"
+        android:backgroundTint="#982EAA"
+        android:text="PAGINA WED"
+        android:textAllCaps="true"
+        android:textColor="#BFB8B8"
+        app:icon="?attr/actionModeCopyDrawable"
+        app:iconTint="#DFD4D4" />
+
+</RelativeLayout>
